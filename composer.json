@@ -1,0 +1,25 @@
+{
+    "name": "fcastilloes/katana-sdk-testing",
+    "description": "PhpUnit extension to test Katana",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fernando Castillo",
+            "email": "contact@fcastillo.es"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Katana\\SdkTesting\\": "src"}
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:kusanagi/katana-sdk-php5.git",
+            "no-api": true
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^5.7",
+        "kusanagi/katana-sdk-php5": "*@dev"
+    }
+}
